@@ -13,6 +13,18 @@ body {
     text-align: center;
 }
 
+#hero {
+    background-image: url('images/co-denver.jpg');
+    height: 55vh;
+    padding-top: 80px;
+    background-size: cover;
+}
+
+#activities {
+    background: #efefd0;
+    padding: 20px 0 50px 0;
+}
+
 img {
     width: 100px;
 }
