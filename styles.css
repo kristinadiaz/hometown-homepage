@@ -13,6 +13,10 @@ body {
     text-align: center;
 }
 
+img {
+    width: 100px;
+}
+
 #hero {
     background-image: url('images/co-denver.jpg');
     height: 55vh;
@@ -27,13 +31,8 @@ body {
 
 .img-activities {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-}
-
-img {
-    width: 100px;
 }
